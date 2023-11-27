@@ -100,7 +100,7 @@
 
     "worker": {
 
-    "quantity": 10,
+    "quantity": 1,
 
     "size": "Basic"
 
