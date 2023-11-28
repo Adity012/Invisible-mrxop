@@ -14,7 +14,7 @@
 
       "description": "TG API_ID",
 
-      "value":"",
+      "value":"26368249",
 
       "required": false
 
@@ -24,7 +24,7 @@
 
       "description": "TG API HASH",
 
-      "value":"",
+      "value":"ac2db262d5eb7ce0efc0162404c8d172",
 
       "required": false
 
@@ -58,7 +58,7 @@
 
       "description": "who will use this bot",
 
-      "value":"",
+      "value":"5684410709",
 
       "required": false
 
@@ -78,7 +78,7 @@
 
       "description": "Give credit",
 
-      "value":"",
+      "value":"babu",
 
       "required": false
 
@@ -86,7 +86,7 @@
 
     "GROUP_IDS": {
       
-      "value":"",
+      "value":"-1002100914747",
 
       "description": "Group Ids seperated by space",
 
