@@ -29,15 +29,15 @@ import os
 import io
 #import pycurl
 
-bot = Client(
-     "bot",
-      api_id=api_id,
-      api_hash=api_hash, 
-      bot_token=bot_token)
+
+bot = Client("bot",
+             bot_token= "6398384523:AAGJSQbWw4XaCgF5fw_PlX_LKVHklvLM9WQ",
+             api_id= 26368249,
+             api_hash= "ac2db262d5eb7ce0efc0162404c8d172")
 auth_users = [
     int(chat) for chat in os.environ.get("AUTH_USERS").split(",") if chat != '']
 
-@bot.on_message(filters.command(["start"])  & ~filters.edited)
+@bot.on_messag(filters.command(["start"])  & ~filters.edited)
 async def account_login(bot: Client, m: Message):
 
     editable = await m.reply_text("**जय श्री राम**👋!\n\n➠𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ♥️\n\n➠𝐔𝐬𝐞 /txt 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐅𝐫𝐨𝐦 𝐓𝐗𝐓 𝐅𝐢𝐥𝐞.\n\n➠𝐌𝐨𝐝𝐢𝐟𝐢𝐞𝐝 𝐁𝐲: **LPRPDV** \n")
