@@ -31,7 +31,7 @@ import io
 
 
 bot = Client("bot",
-             bot_token= "6398384523:AAGJSQbWw4XaCgF5fw_PlX_LKVHklvLM9WQ",
+             bot_token= "6393747028:AAE8s8N0Jfh_-KXehs6Rby166z34iXdRLJs",
              api_id= 26368249,
              api_hash= "ac2db262d5eb7ce0efc0162404c8d172")
 auth_users = [
