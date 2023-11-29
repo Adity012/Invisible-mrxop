@@ -24,7 +24,7 @@ import re
 import os
 
 bot = Client("bot",
-             bot_token= "6532353747:AAFKW5RBcBRtXuUzT4maHDq_yUHeL0n_FW8",
+             bot_token= "6393747028:AAE8s8N0Jfh_-KXehs6Rby166z34iXdRLJs",
              api_id= 26368249,
              api_hash= "ac2db262d5eb7ce0efc0162404c8d172")
 
@@ -38,7 +38,7 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["Txt"]) & filters.user(ADMINS))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(f"**Hey [{m.from_user.first_name}](tg://user?id={m.from_user.id})\nSend txt file**")
+    editable = await m.reply_text(f"**जय श्री राम [{m.from_user.first_name}](tg://user?id={m.from_user.id})\nSend txt file**")
     input: Message = await bot.listen(editable.chat.id)
     if input.document:
         x = await input.download()
